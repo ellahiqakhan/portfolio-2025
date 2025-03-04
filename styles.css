@@ -1,0 +1,143 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Title Styling */
+.header-title {
+    color: #000; /* Black color */
+    font-size: 2.5rem;
+    font-weight: 700; /* Bold */
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.header-subtitle {
+    color: #000; /* Black color */
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #2c3e50; /* Dark gray */
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700; /* Bold */
+    color: #fff !important;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #f8f9fa !important;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url('assets/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Profile Picture Animation */
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #2c3e50; /* Dark gray */
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.profile-pic:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 700; /* Bold */
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50; /* Dark gray */
+}
+
+/* Skills Section */
+.skill-item {
+    margin-bottom: 20px;
+}
+.skill-item p {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+.progress-bar {
+    background-color: #34495e; /* Muted blue-gray */
+    border-radius: 10px;
+}
+
+/* Cards Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700; /* Bold */
+    margin-bottom: 10px;
+    color: #2c3e50; /* Dark gray */
+}
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50; /* Dark gray */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
